@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Click-Me Game</title>
+  <style>
+    body{
+        background-image: url(blue.jpg);
+    background-size: cover;
+    text-align: center;
+    color: rgb(9, 224, 23);
+}
+h1{
+    background-color: rgb(35, 131, 220);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p{
+    font-family: sans-serif;
+    text-shadow: 2px 2px rgb(135, 135, 208);
+}
+img {
+    border-radius: 5px;
+    box-shadow: 0 0 10px 5px rgb(219, 124, 105);
+}
+#end{
+    font-weight: bold;
+    font-family: sans-serif;
+    color: rgb(41, 167, 68);
+    font-size: 30px;
+}
+  </style>
+</head>
+<body>
+  <h1>Click-Me Game</h1>
+  <p>Click the Below picture as many times as you can in <span id="time">10</span> wacky seconds!</p>
+  <img src="here.jpg" id="animalPicture" alt="Animal Picture" class="animal-picture" height="200px">
+  <p id="score">Score: 0</p>
+  <script src="index.js"></script>
+  <div id="end"></div>
+</body>
+</html>
